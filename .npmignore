@@ -1,0 +1,32 @@
+# Test files
+tests/
+demo/
+test-output.png
+
+# AI files
+.claude/
+.cursor/
+CLAUDE.md
+
+# Development files
+.gitignore
+tsconfig.json
+biome.json
+bun.lockb
+
+# IDE files
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Log files
+*.log
+npm-debug.log*
+
+# Coverage directory
+coverage/
+
+# Build artifacts not needed for npm
+*.tsbuildinfo

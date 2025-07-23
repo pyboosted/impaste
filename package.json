@@ -5,8 +5,8 @@
 	"author": "Hexie",
 	"license": "MIT",
 	"bin": {
-		"impaste": "./index.ts",
-		"imcopy": "./imcopy.ts"
+		"impaste": "./bin/impaste",
+		"imcopy": "./bin/imcopy"
 	},
 	"scripts": {
 		"lint": "biome check .",
@@ -18,7 +18,8 @@
 	"private": false,
 	"files": [
 		"index.ts",
-		"imcopy.ts"
+		"imcopy.ts",
+		"bin"
 	],
 	"devDependencies": {
 		"@biomejs/biome": "^2.1",

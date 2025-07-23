@@ -1,29 +1,29 @@
 {
-	"name": "@hexie/impaste",
-	"version": "1.0.0",
-	"description": "Clipboard image utilities for macOS - paste and copy images",
-	"author": "Hexie",
-	"license": "MIT",
-	"bin": {
-		"impaste": "./bin/impaste",
-		"imcopy": "./bin/imcopy"
-	},
-	"scripts": {
-		"lint": "biome check .",
-		"format": "biome format --write .",
-		"typecheck": "tsc --noEmit"
-	},
-	"module": "index.ts",
-	"type": "module",
-	"private": false,
-	"files": [
-		"index.ts",
-		"imcopy.ts",
-		"bin"
-	],
-	"devDependencies": {
-		"@biomejs/biome": "^2.1",
-		"@types/bun": "latest",
-		"typescript": "^5.8.3"
-	}
+  "name": "@hexie/impaste",
+  "version": "1.0.0",
+  "description": "Clipboard image utilities for macOS - paste and copy images",
+  "author": "Hexie",
+  "license": "MIT",
+  "bin": {
+    "impaste": "./bin/impaste",
+    "imcopy": "./bin/imcopy"
+  },
+  "scripts": {
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "typecheck": "tsc --noEmit"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "private": false,
+  "files": [
+    "index.ts",
+    "imcopy.ts",
+    "bin"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "^2.1",
+    "@types/bun": "latest",
+    "typescript": "^5.8.3"
+  }
 }
